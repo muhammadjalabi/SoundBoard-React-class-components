@@ -131,7 +131,6 @@ class App extends React.Component {
     );
   }
 }
-//  gsdgsdfds
 
 export default App;
 ReactDOM.render(<App />, document.querySelector('#root'));
