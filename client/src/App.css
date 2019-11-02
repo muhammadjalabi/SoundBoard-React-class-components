@@ -4,8 +4,9 @@
 }
 
 body {
-  background: url('./images/saltgrains.jpg') bottom center;
-  background-size: cover;  
+  background: url('./images/saltgrains.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
 }
 
 
@@ -36,7 +37,8 @@ body {
        1px 1px 0 #cdf7e8;
 }
 .studio-desc {
-  font-weight: 200;
+  
+  font-weight: 300;
   white-space: pre-wrap;
   color: #80005c;
   text-shadow: 1px 0 1px #68adab;
@@ -44,7 +46,7 @@ body {
 
 }
 .header-desc {
-  font-weight: 200;
+  font-weight: 300;
   white-space: pre-wrap;
   color: #cdf7e8;
   text-shadow: 1px 0 1px #68adab;

@@ -35,7 +35,7 @@ class Studio extends React.Component{
             If you're happy, add it to the soundboard below!
             </h3>
             <ReactMic record={this.state.recording} className="sound-wave" onStop={this.onStop} onData={this.onData} strokeColor="#cdf7e8" backgroundColor="#68adab" />
-            <br></br>
+            <br />
             <button onClick={this.beginVoiceRec} className="btn btn-record" type="button">[re]Record</button>
             <button onClick={this.stopVoiceRec} type="button" className="btn btn-stop">STOP</button>
             <button type="button" className="btn btn-play">PLAY</button>
